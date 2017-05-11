@@ -12,6 +12,9 @@ public class Cliente {
 	private String password;
 	
 //métodos
+	public Cliente(){
+	}
+	
 	public Cliente(Long id, String nroDoc, String tipoDoc, String nombre, String direccion, String telefono,
 			String password) {
 		super();
